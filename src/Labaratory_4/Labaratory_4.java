@@ -2,7 +2,7 @@ package Labaratory_4;
 
 import java.util.Arrays;
 
-class Labaratory_4{
+class Labaratory_4 {
   static void main(){
     int[] massive = {5,6,1,2,5,4};
     System.out.println(Arrays.toString(massive));
