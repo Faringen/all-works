@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 class Labaratory_4 {
   static void main(){
-    int[] massive = {4,2,1,5,6,3,2,8};
+    int[] massive = {4,2,1,5,6,3,1,8};
     System.out.println(Arrays.toString(massive));
     shacherSort(massive);
     System.out.println(Arrays.toString(massive));
