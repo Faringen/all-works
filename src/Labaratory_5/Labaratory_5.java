@@ -29,7 +29,10 @@ class Equation{
         return 3*x+5;
     }
     int second(){
-        return (a + b)/(a-b);
+        int up = a+b;
+        int down = a-b;
+        if (down == 0) return -1;
+        return up/down;
     }
     int third(){
         return getFactorial((a*x)/b);
