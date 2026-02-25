@@ -5,8 +5,11 @@ import java.util.Scanner;
 class Labaratory_5{
     static void main(){
         Scanner in = new Scanner(System.in);
+        System.out.println("Введите x (только цифры):");
         int first = in.nextInt();
+        System.out.println("Введите a (только цифры):");
         int second = in.nextInt();
+        System.out.println("Введите b (только цифры):");
         int third = in.nextInt();
         Equation newPrimer = new Equation(first,second,third);
         int one = newPrimer.first();
