@@ -1,12 +1,21 @@
 package Labaratory_5;
 
+import java.util.Scanner;
+
 class Labaratory_5{
     static void main(){
-        Equation newPrimer = new Equation(5,1,2);
+        Scanner in = new Scanner(System.in);
+        int first = in.nextInt();
+        int second = in.nextInt();
+        int third = in.nextInt();
+        Equation newPrimer = new Equation(first,second,third);
         int one = newPrimer.first();
         int two = newPrimer.second();
-        int three = newPrimer.thirt();
-        System.out.println(one + " " + two + " " + three);
+        int three = newPrimer.third();
+        System.out.printf("3x+5 при x=%d = " + one +
+                "\n(a+b)/(a-b) при a=%d и b=%d = " + two +
+                "\n(a*x)/b! при a=%d, b=%d, x=%d = " + three,
+                newPrimer.x, newPrimer.a, newPrimer.b, newPrimer.a, newPrimer.b, newPrimer.x);
     }
 }
 class Equation{
@@ -22,7 +31,7 @@ class Equation{
     int second(){
         return (a + b)/(a-b);
     }
-    int thirt(){
+    int third(){
         return getFactorial((a*x)/b);
     }
     public static int getFactorial(int f) {
