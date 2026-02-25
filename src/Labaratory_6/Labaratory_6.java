@@ -4,6 +4,8 @@ class Labaratory_6{
     static void main(){
         Reader libery = new Reader("Сидоров В.А.", "312", "4 курс","25.12.2001", "8992543151");
         libery.takeBook(3);
+        libery.takeBook("Новая литература", "Словарь", "Пересказы");
+        libery.returnBook(4);
         libery.returnBook("Пересказы","Словарь");
 
     }
