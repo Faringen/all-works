@@ -14,7 +14,7 @@ class Labaratory_10{
         cat.eat();
         dog.makeNoise();
         horse.sleep();
-        vet.treatAnimal(cat);
+        vet.treatAnimal(dog);
     }
 }
 abstract class Animal{
@@ -31,11 +31,11 @@ class Dog extends Animal {
         this.name = name;
         super(food, location);
     }
-
+    
     public void makeNoise() {
         System.out.println("Собака по кличке " + this.name + " спит");
     }
-
+    @Override
     public void eat() {
         System.out.println("Собака по кличке " + this.name + " ест " + food);
     }
