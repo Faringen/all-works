@@ -15,7 +15,7 @@ public class Labaratory_13 {
         user2.returnPassword(4123);
         BuyingNewspaper n = new BuyingNewspaper("lFsa", 4123);
         n.returnInfo("Apple", 8);
-        n.buing();
+        n.buying();
     }
 
     // В этом классе создать метод выводящий сообщение, что такой-то пользователь купил такой-то товар. Создать экземпляр этого класса.
@@ -122,7 +122,7 @@ class BuyingNewspaper implements User, Product{
     public void returnLogin(String login){
         System.out.println("Login for user - " + login);
     }
-    void buing(){
+    void buying(){
         if(this.productName == null){
             System.out.println(this.nameUser + " buing some Undefiled product.");
         }
