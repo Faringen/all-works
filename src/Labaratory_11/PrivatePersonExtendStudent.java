@@ -1,6 +1,6 @@
 package Labaratory_11;
 
-class Labaratory_11 {
+class PrivatePersonExtendStudent {
     //Создать класс Person с private полем возраст и public полями ФИО, Телефон.
     // Создать класс-наследник Student с дополнительными public полями - Курс, Факультет и private полем дата поступления.
     // Создать массив из трех объектов класса Student.

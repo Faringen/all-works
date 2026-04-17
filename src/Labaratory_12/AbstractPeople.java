@@ -1,6 +1,6 @@
 package Labaratory_12;
 
-public class Labaratory_12 {
+public class AbstractPeople {
     static void main() {
         User user1 = new Student("Иван", 20, "Казначей", 2, "Инфо-мат");
         User user2 = new Teacher("Роман", 45, "Преподовательство на пол.ставки", 20000, 20);

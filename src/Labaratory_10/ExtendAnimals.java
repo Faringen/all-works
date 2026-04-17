@@ -1,6 +1,6 @@
 package Labaratory_10;
 
-class Labaratory_10{
+class ExtendAnimals{
  //Создать класс Animal и расширяющие его классы Dog, Cat, Horse. Класс Animal содержит переменные food, location и методы makeNoise, eat, sleep.
     // Метод makeNoise, например, может выводить на консоль "Такое-то животное спит". Dog, Cat, Horse переопределяют методы makeNoise, eat.
     // Добавьте переменные в классы Dog, Cat, Horse, характеризующие только этих животных.

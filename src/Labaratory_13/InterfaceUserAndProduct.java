@@ -1,6 +1,6 @@
 package Labaratory_13;
 
-public class Labaratory_13 {
+public class InterfaceUserAndProduct {
     static void main(){
         Product coffee = new Coffee();
         Product doorlock = new DoorLock();

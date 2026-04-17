@@ -1,6 +1,6 @@
 package Labaratory_8;
 
-class Labaratory_8{
+class ThreeClass{
     static void main(String[] args){
         String name = "Иван", surname = "Петрович", age = "21.2.2001",
                 mark = "A631",

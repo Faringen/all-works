@@ -1,8 +1,6 @@
 package Labaratory_9;
 
-import java.lang.reflect.Field;
-
-class Labaratory_9{
+class PrivatePerson{
 // Вывести: а) ФИО всех студентов б) список студентов заданного факультета; в) список студентов, поступивших после заданного года.
     static void main(String[] args){
         Student[] students = new Student[]{
