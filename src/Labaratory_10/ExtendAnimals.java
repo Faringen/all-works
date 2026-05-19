@@ -28,8 +28,9 @@ class Dog extends Animal {
     String name;
 
     Dog(String name, String food, String location) {
-        this.name = name;
         super(food, location);
+        this.name = name;
+
     }
     
     public void makeNoise() {
@@ -48,8 +49,8 @@ class Cat extends Animal {
     String name;
 
     Cat(String name, String food, String location) {
-        this.name = name;
         super(food, location);
+        this.name = name;
     }
 
     public void makeNoise() {
@@ -68,8 +69,8 @@ class Horse extends Animal {
     String name;
 
     Horse(String name, String food, String location) {
-        this.name = name;
         super(food, location);
+        this.name = name;
     }
 
     public void makeNoise() {
